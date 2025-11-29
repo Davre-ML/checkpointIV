@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1 | Magia Oscura con JavaScript</title>
+</head>
+
+<body>
+
+  <h1>Demostración de Output en Javascript</h1>
+  <button onclick="show_alert()">¡Haz clic en mí!</button>
+
+  <br>
+  <br>
+
+  <p id="message"></p>
+
+  <button onclick="update_message()">Actualizar parrafo</button>
+
+  <script>
+
+    console.log("La página se cargó correctamente.");
+
+    function show_alert() {
+      alert("Bryan Núñez");
+    }
+
+    function update_message() {
+      document.getElementById("message").textContent = "¡Texto actualizado con JavaScript!";
+    }
+    
+  </script>
+  
+</body>
+  
+</html>
